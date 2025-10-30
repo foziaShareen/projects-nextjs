@@ -4,7 +4,7 @@ import { useState } from "react";
 
 function Card({children}){
   return(
-    <div className="border-md border-green-100 p-10 bg-amber-300 ">
+    <div className="border-md border-green-100 p-10 bg-yellow-200 ">
       <h2 className="text-2xl font-bold mb-5">Card component</h2>
       <div>{children}</div>
     </div>
